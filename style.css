@@ -1,0 +1,46 @@
+.armor-settings .armor-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+    margin: 6px 0;
+}
+
+.armor-settings .armor-label {
+    margin-top: 8px;
+    opacity: 0.75;
+    font-size: 0.9em;
+}
+
+.armor-settings #armor_text,
+.armor-settings #armor_body {
+    width: 100%;
+    font-family: var(--mono-font, monospace);
+    font-size: 0.85em;
+    box-sizing: border-box;
+}
+
+.armor-settings .armor-status {
+    margin-top: 8px;
+    padding: 6px 8px;
+    border-radius: 6px;
+    font-size: 0.85em;
+    background: rgba(128, 128, 128, 0.12);
+}
+
+.armor-settings .armor-status[data-kind="ok"] {
+    color: #3fa14a;
+}
+
+.armor-settings .armor-status[data-kind="warn"] {
+    color: #d29a1e;
+}
+
+.armor-settings .armor-status[data-kind="error"] {
+    color: #d2503f;
+}
+
+.armor-settings hr {
+    margin: 10px 0;
+    opacity: 0.25;
+}

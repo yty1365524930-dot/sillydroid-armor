@@ -1,0 +1,12 @@
+{
+  "display_name": "破甲助手 (Armor Off)",
+  "loading_order": 90,
+  "requires": [],
+  "optional": [],
+  "js": "index.js",
+  "css": "style.css",
+  "author": "YG",
+  "version": "1.0.0",
+  "homePage": "",
+  "auto_update": false
+}
